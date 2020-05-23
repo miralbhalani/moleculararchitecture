@@ -1,5 +1,47 @@
 class Barber {
-  constructor() {
-    
+  
+  siezer;
+  comb;
+  treamer
+  constructor(_siezer, _comb, _treamer) {
+    this.siezer = _siezer;
+    this.comb = _comb;
+    this.treamer = _treamer
   }
+  
+  
+  cutHair() {
+    const siezer = this.siezer;
+    const comb = this.comb;
+    
+    //.....DO THE HAIR CUT USING siezer and comb variable
+  }
+  
+  cutBeard() {
+    const siezer = this.siezer;
+    const comb = this.comb;
+    const treamer = this.treamer;
+    
+    //.....DO THE BEARD CUT USING siezer, treamer and comb variable
+  }
+  
+  bluntCutStyle() {
+    const treamer = this.treamer;
+    
+    //.....DO THE TREAMER CUT USING ONLY treamer variable
+  }
+  
+  lowBunStyle() {
+    const treamer = this.treamer;
+    
+    //.....DO THE TREAMER CUT USING ONLY treamer variable
+  }
+  
+  shortAndStraightStyle() {
+    const treamer = this.treamer;
+    const comb = this.comb;
+    
+    //.....DO THE CUT USING treamer anc comb variable
+  }
+  
 }
